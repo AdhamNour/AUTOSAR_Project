@@ -42,18 +42,7 @@
 /*******************************************************************************
  *                              Module Data Types                              *
  *******************************************************************************/
-
-/* Description: Enum to hold PIN direction */
-typedef enum
-{
-    INPUT,OUTPUT
-}Port_PinDirection;
-
-/* Description: Enum to hold internal resistor type for PIN */
-typedef enum
-{
-    OFF,PULL_UP,PULL_DOWN
-}Port_InternalResistor;
+#include "Types/Port_Types.h"
 
 /* Description: Structure to configure each individual PIN:
  *	1. the PORT Which the pin belongs to. 0, 1, 2, 3, 4 or 5
@@ -65,7 +54,7 @@ typedef struct
 {
     uint8 port_num; 
     uint8 pin_num; 
-    Port_PinDirection direction;
+    Port_PinDirectionType direction;
     Port_InternalResistor resistor;
     uint8 initial_value;
 }Port_ConfigType;
@@ -74,6 +63,7 @@ typedef struct
  *                      Function Prototypes                                    *
  *******************************************************************************/
 
+//TODO : DELETE THE FOLLOWING FUNCTION AFTER IMPLEMENTING THE DRIVER
 /************************************************************************************
 * Service Name: Port_SetupGpioPin
 * Sync/Async: Synchronous

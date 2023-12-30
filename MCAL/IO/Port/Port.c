@@ -60,9 +60,9 @@ void Port_SetupGpioPin(const Port_ConfigType * ConfigPtr )
         /* Do Nothing ... No need to unlock the commit register for this pin */
     }
     
-    if(ConfigPtr->direction == OUTPUT)
+    if(ConfigPtr->direction == PORT_PIN_OUT)
     {
-	    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET) , ConfigPtr->pin_num);               /* Set the corresponding bit in the GPIODIR register to configure it as output pin */
+	    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET) , ConfigPtr->pin_num);               /* Set the corresponding bit in the GPIODIR register to configure it as PORT_PIN_OUT pin */
         
         if(ConfigPtr->initial_value == STD_HIGH)
         {
@@ -73,9 +73,9 @@ void Port_SetupGpioPin(const Port_ConfigType * ConfigPtr )
             CLEAR_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DATA_REG_OFFSET) , ConfigPtr->pin_num);        /* Clear the corresponding bit in the GPIODATA register to provide initial value 0 */
         }
     }
-    else if(ConfigPtr->direction == INPUT)
+    else if(ConfigPtr->direction == PORT_PIN_IN)
     {
-        CLEAR_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET) , ConfigPtr->pin_num);             /* Clear the corresponding bit in the GPIODIR register to configure it as input pin */
+        CLEAR_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET) , ConfigPtr->pin_num);             /* Clear the corresponding bit in the GPIODIR register to configure it as PORT_PIN_IN pin */
         
         if(ConfigPtr->resistor == PULL_UP)
         {

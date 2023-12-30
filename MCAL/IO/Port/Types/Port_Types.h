@@ -27,5 +27,11 @@ typedef enum Port_PinDirectionType
 /*Initializes the Port Driver module*/
 typedef uint8 Port_PinModeType;
 
+/* Description: Enum to hold internal resistor type for PIN */
+typedef enum
+{
+    OFF,PULL_UP,PULL_DOWN
+}Port_InternalResistor;
+
 
 #endif /* MCAL_IO_PORT_TYPES_PORT_TYPES_H_ */

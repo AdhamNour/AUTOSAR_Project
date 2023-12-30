@@ -8,6 +8,7 @@ Button.obj: D:/AUTOSAR_Project/Compiler.h
 Button.obj: D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h
 Button.obj: D:/AUTOSAR_Project/Common_Macros.h
 Button.obj: D:/AUTOSAR_Project/MCAL/IO/Port/Port.h
+Button.obj: D:/AUTOSAR_Project/MCAL/IO/Port/Types/Port_Types.h
 Button.obj: ../Button.h
 Button.obj: ../Button_Cfg.h
 
@@ -26,6 +27,8 @@ D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h:
 D:/AUTOSAR_Project/Common_Macros.h:
 
 D:/AUTOSAR_Project/MCAL/IO/Port/Port.h:
+
+D:/AUTOSAR_Project/MCAL/IO/Port/Types/Port_Types.h:
 
 ../Button.h:
 
