@@ -53,7 +53,7 @@
 #endif
 
 /* Dio Pre-Compile Configuration Header file */
-#include "Dio_Cfg.h"
+#include <MCAL/IO/Dio/Dio_Cfg.h>
 
 /* AUTOSAR Version checking between Dio_Cfg.h and Dio.h files */
 #if ((DIO_CFG_AR_RELEASE_MAJOR_VERSION != DIO_AR_RELEASE_MAJOR_VERSION)\

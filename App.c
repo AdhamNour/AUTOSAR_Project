@@ -9,10 +9,10 @@
  * Author: Mohamed Tarek
  ******************************************************************************/
 
+#include <MCAL/IO/Dio/Dio.h>
 #include "App.h"
 #include "Button.h"
 #include "Led.h"
-#include "Dio.h"
 #include "Mcu.h"
 
 /* Description: Task executes once to initialize all the Modules */
