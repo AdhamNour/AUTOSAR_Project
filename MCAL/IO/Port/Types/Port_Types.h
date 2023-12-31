@@ -30,8 +30,30 @@ typedef uint8 Port_PinModeType;
 /* Description: Enum to hold internal resistor type for PIN */
 typedef enum
 {
-    OFF,PULL_UP,PULL_DOWN
-}Port_InternalResistor;
+    OFF, PULL_UP, PULL_DOWN
+} Port_InternalResistor;
 
+/* Description: Structure to configure each individual PIN:
+ *  1. the PORT Which the pin belongs to. 0, 1, 2, 3, 4 or 5
+ *  2. the number of the pin in the PORT.
+ *      3. the direction of pin --> INPUT or OUTPUT
+ *      4. the internal resistor --> Disable, Pull up or Pull down
+ */
+typedef struct
+{
+    uint8 port_num;
+    uint8 pin_num;
+    Port_PinDirectionType direction;
+    Port_PinModeType mode;
+    Port_InternalResistor resistor;
+    uint8 initial_value;
+    boolean pin_dir_changeable;
+    boolean pin_mode_changeable;
+} Port_PinConfig;
+
+typedef struct
+{
+    Port_PinConfig pins [PORT_CONFIGURED_PINS];
+}Port_ConfigType;
 
 #endif /* MCAL_IO_PORT_TYPES_PORT_TYPES_H_ */
