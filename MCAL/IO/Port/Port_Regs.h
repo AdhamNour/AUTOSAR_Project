@@ -1,12 +1,20 @@
-/*
- * Port_Regs.h
+ /******************************************************************************
  *
- *  Created on: Dec 31, 2023
- *      Author: adham
- */
+ * Module: PORT
+ *
+ * File Name: Port_Regs.h
+ *
+ * Description: Pre-Compile Configuration Header file for TM4C123GH6PM Microcontroller - Port Driver
+ *
+ * Author: Assem Khaled
+ ******************************************************************************/
 
-#ifndef MCAL_IO_PORT_REGISTERS_PORT_REGS_H_
-#define MCAL_IO_PORT_REGISTERS_PORT_REGS_H_
+#ifndef MCAL_IO_PORT_PORT_REGS_H_
+#define MCAL_IO_PORT_PORT_REGS_H_
+
+
+
+#include "Std_Types.h"
 
 /*******************************************************************************
  *                              Module Definitions                             *
@@ -32,5 +40,8 @@
 #define PORT_ANALOG_MODE_SEL_REG_OFFSET   0x528
 #define PORT_CTL_REG_OFFSET               0x52C
 
+/* RCC Registers */
+#define SYSCTL_REGCGC2_REG              (*((volatile uint32 *)0x400FE108))
 
-#endif /* MCAL_IO_PORT_REGISTERS_PORT_REGS_H_ */
+
+#endif /* MCAL_IO_PORT_PORT_REGS_H_ */

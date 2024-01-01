@@ -10,5 +10,6 @@
 "./MCAL/IO/Dio/Dio.obj"
 "./MCAL/IO/Dio/Dio_PBcfg.obj"
 "./MCAL/IO/Port/Port.obj"
+"./MCAL/IO/Port/Port_PBcfg.obj"
 "../tm4c123gh6pm.cmd"
 -llibc.a

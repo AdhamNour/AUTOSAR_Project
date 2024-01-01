@@ -1,12 +1,17 @@
-/*
- * Port_Cfg.h
+ /******************************************************************************
  *
- *  Created on: Dec 31, 2023
- *      Author: adham
- */
+ * Module: PORT
+ *
+ * File Name: Port_Cfg.h
+ *
+ * Description: Pre-Compile Configuration Header file for TM4C123GH6PM Microcontroller - Port Driver
+ *
+ * Author: Adham Nour
+ ******************************************************************************/
 
-#ifndef MCAL_IO_PORT_CONGIFURATIONS_PORT_CFG_H_
-#define MCAL_IO_PORT_CONGIFURATIONS_PORT_CFG_H_
+#ifndef MCAL_IO_PORT_PORT_CFG_H_
+#define MCAL_IO_PORT_PORT_CFG_H_
+
 
 /*
  * Module Version 1.0.0
@@ -37,7 +42,7 @@
 /* Number of PINS */
 #define PORT_CONFIGURED_PINS                (43U)
 
-/* Tiva-c Ports */
+/* TivaC Ports */
 #define PORT_PortA                  (0U)
 #define PORT_PortB                  (1U)
 #define PORT_PortC                  (2U)
@@ -45,7 +50,7 @@
 #define PORT_PortE                  (4U)
 #define PORT_PortF                  (5U)
 
-/* Tiva-c Pins */
+/* TivaC Pins */
 #define PORT_Pin0                   (0U)
 #define PORT_Pin1                   (1U)
 #define PORT_Pin2                   (2U)
@@ -53,6 +58,7 @@
 #define PORT_Pin4                   (4U)
 #define PORT_Pin5                   (5U)
 #define PORT_Pin6                   (6U)
-#define PORT_Pin7
+#define PORT_Pin7                   (7U)
 
-#endif /* MCAL_IO_PORT_CONGIFURATIONS_PORT_CFG_H_ */
+
+#endif /* MCAL_IO_PORT_PORT_CFG_H_ */

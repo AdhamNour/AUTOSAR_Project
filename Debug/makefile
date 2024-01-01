@@ -22,6 +22,7 @@ ORDERED_OBJS += \
 "./MCAL/IO/Dio/Dio.obj" \
 "./MCAL/IO/Dio/Dio_PBcfg.obj" \
 "./MCAL/IO/Port/Port.obj" \
+"./MCAL/IO/Port/Port_PBcfg.obj" \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
@@ -156,8 +157,8 @@ AUTOSAR_Project.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "App.obj" "Button.obj" "Det.obj" "Gpt.obj" "Led.obj" "Mcu.obj" "Os.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "MCAL\IO\Dio\Dio.obj" "MCAL\IO\Dio\Dio_PBcfg.obj" "MCAL\IO\Port\Port.obj" 
-	-$(RM) "App.d" "Button.d" "Det.d" "Gpt.d" "Led.d" "Mcu.d" "Os.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "MCAL\IO\Dio\Dio.d" "MCAL\IO\Dio\Dio_PBcfg.d" "MCAL\IO\Port\Port.d" 
+	-$(RM) "App.obj" "Button.obj" "Det.obj" "Gpt.obj" "Led.obj" "Mcu.obj" "Os.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "MCAL\IO\Dio\Dio.obj" "MCAL\IO\Dio\Dio_PBcfg.obj" "MCAL\IO\Port\Port.obj" "MCAL\IO\Port\Port_PBcfg.obj" 
+	-$(RM) "App.d" "Button.d" "Det.d" "Gpt.d" "Led.d" "Mcu.d" "Os.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "MCAL\IO\Dio\Dio.d" "MCAL\IO\Dio\Dio_PBcfg.d" "MCAL\IO\Port\Port.d" "MCAL\IO\Port\Port_PBcfg.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
