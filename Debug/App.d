@@ -7,6 +7,8 @@ App.obj: D:/AUTOSAR_Project/Platform_Types.h
 App.obj: D:/AUTOSAR_Project/Compiler.h
 App.obj: D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h
 App.obj: D:/AUTOSAR_Project/Common_Macros.h
+App.obj: ../MCAL/IO/Port/Port.h
+App.obj: ../MCAL/IO/Port/Port_Cfg.h
 App.obj: ../App.h
 App.obj: ../Button.h
 App.obj: ../Button_Cfg.h
@@ -27,6 +29,10 @@ D:/AUTOSAR_Project/Compiler.h:
 D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h:
 
 D:/AUTOSAR_Project/Common_Macros.h:
+
+../MCAL/IO/Port/Port.h:
+
+../MCAL/IO/Port/Port_Cfg.h:
 
 ../App.h:
 
