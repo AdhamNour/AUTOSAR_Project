@@ -240,6 +240,73 @@ void Port_Init(const Port_ConfigType *ConfigPtr)
 #if (PORT_SET_PIN_DIRECTION_API == STD_ON)
 void Port_SetPinDirection(Port_PinType Pin, Port_PinDirectionType Direction)
 {
+    volatile uint32 *PortGpio_Ptr =
+                    Base_Address[Port_ConfigPtr->Pin[Pin].port_num];
+#if(PORT_DEV_ERROR_DETECT == STD_ON)
+
+    if(!(Port_ConfigPtr->Pin[Pin].pin_dir_changeable)){
+        Det_ReportError(PORT_MODULE_ID, PORT_INSTANCE_ID, PORT_SET_PIN_DIR_SID, PORT_E_DIRECTION_UNCHANGEABLE);
+    }
+    else
+#endif
+    {
+    if (Direction == PORT_PIN_OUT)
+            {
+                /* Set the corresponding bit in the GPIODIR register to configure it as output pin */
+                SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET),
+                        Port_ConfigPtr->Pin[Pin].pin_num);
+
+                if (Port_ConfigPtr->Pin[Pin].initial_value == PORT_PIN_LEVEL_HIGH)
+                {
+                    /* Set the corresponding bit in the GPIODATA register to provide initial value 1 */
+                    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DATA_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+                }
+                else
+                {
+                    /* Clear the corresponding bit in the GPIODATA register to provide initial value 0 */
+                    CLEAR_BIT(
+                            *(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DATA_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+                }
+            }
+            else if (Direction == PORT_PIN_IN)
+            {
+                /* Clear the corresponding bit in the GPIODIR register to configure it as input pin */
+                CLEAR_BIT(
+                        *(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET),
+                        Port_ConfigPtr->Pin[Pin].pin_num);
+
+                if (Port_ConfigPtr->Pin[Pin].resistor == PULL_UP)
+                {
+                    /* Set the corresponding bit in the GPIOPUR register to enable the internal pull up pin */
+                    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_PULL_UP_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+                }
+                else if (Port_ConfigPtr->Pin[Pin].resistor == PULL_DOWN)
+                {
+                    /* Set the corresponding bit in the GPIOPDR register to enable the internal pull down pin */
+                    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_PULL_DOWN_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+                }
+                else
+                {
+                    /* Clear the corresponding bit in the GPIOPUR register to disable the internal pull up pin */
+                    CLEAR_BIT(
+                            *(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_PULL_UP_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+
+                    /* Clear the corresponding bit in the GPIOPDR register to disable the internal pull down pin */
+                    CLEAR_BIT(
+                            *(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_PULL_DOWN_REG_OFFSET),
+                            Port_ConfigPtr->Pin[Pin].pin_num);
+                }
+            }
+            else
+            {
+                /* Do Nothing */
+            }
+    }
 }
 #endif
 
