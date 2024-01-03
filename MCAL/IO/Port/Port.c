@@ -33,7 +33,7 @@ STATIC uint8 Port_Status = PORT_NOT_INITIALIZED;
 /* Holds the pointer of the Port_PinConfig */
 STATIC const Port_ConfigType *Port_ConfigPtr = NULL_PTR;
 
-STATIC uint32 *Base_Address[6] = { (volatile uint32*) GPIO_PORTA_BASE_ADDRESS,
+STATIC volatile uint32 *Base_Address[6] = { (volatile uint32*) GPIO_PORTA_BASE_ADDRESS,
                                    (volatile uint32*) GPIO_PORTB_BASE_ADDRESS,
                                    (volatile uint32*) GPIO_PORTC_BASE_ADDRESS,
                                    (volatile uint32*) GPIO_PORTD_BASE_ADDRESS,
