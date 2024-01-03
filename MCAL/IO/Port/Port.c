@@ -224,8 +224,6 @@ void Port_Init(const Port_ConfigType *ConfigPtr)
     }
 }
 
-
-
 /************************************************************************************
  * Service Name: Port_SetPinDirection
  * Service ID[hex]: 0x01
@@ -256,7 +254,57 @@ void Port_SetPinDirection(Port_PinType Pin, Port_PinDirectionType Direction)
  ************************************************************************************/
 void Port_RefreshPortDirection(void)
 {
+#if (PORT_DEV_ERROR_DETECT == STD_ON)
+    /* Check if the Driver is initialized before using this function */
+    if (Port_Status == PORT_NOT_INITIALIZED)
+    {
+        Det_ReportError(PORT_MODULE_ID, PORT_INSTANCE_ID,
+                        PORT_REFRESH_PORT_DIR_SID, PORT_E_UNINIT);
+    }
+    else
 
+#endif
+    {
+        Port_PinType index = ZERO;
+        for (index = ZERO; index < PORT_CONFIGURED_PINS; index++)
+        {
+            volatile uint32 *PortGpio_Ptr =
+                            Base_Address[Port_ConfigPtr->Pin[index].port_num];
+
+            if ((Port_ConfigPtr->Pin[index].port_num == 2)
+                    && (Port_ConfigPtr->Pin[index].pin_num <= 3)) /* PC0 to PC3 */
+            {
+                /* Do Nothing ...  this is the JTAG pins */
+                continue;
+            }
+
+            /* PORT061: The function Port_RefreshPortDirection shall exclude those port pins from
+             * refreshing that are configured as pin direction changeable during runtime */
+            if (Port_ConfigPtr->Pin[index].pin_dir_changeable == STD_OFF)
+            {
+                if (Port_ConfigPtr->Pin[index].direction == PORT_PIN_OUT)
+                {
+                    /* Set the corresponding bit in the GPIODIR register to configure it as output pin */
+                    SET_BIT(*(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET),
+                            Port_ConfigPtr->Pin[index].pin_num);
+                }
+                else if (Port_ConfigPtr->Pin[index].direction == PORT_PIN_IN)
+                {
+                    /* Clear the corresponding bit in the GPIODIR register to configure it as input pin */
+                    CLEAR_BIT(
+                            *(volatile uint32 *)((volatile uint8 *)PortGpio_Ptr + PORT_DIR_REG_OFFSET),
+                            Port_ConfigPtr->Pin[index].pin_num);
+                }
+                else
+                { /* Do Nothing */
+                }
+            }
+            else
+            { /* Do Nothing */
+            }
+        }
+
+    }
 }
 
 /************************************************************************************
