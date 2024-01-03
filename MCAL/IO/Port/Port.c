@@ -224,8 +224,6 @@ void Port_Init(const Port_ConfigType *ConfigPtr)
     }
 }
 
-
-
 /************************************************************************************
  * Service Name: Port_SetPinDirection
  * Service ID[hex]: 0x01
@@ -340,6 +338,29 @@ void Port_RefreshPortDirection(void)
 #if (PORT_VERSION_INFO_API == STD_ON)
 void Port_GetVersionInfo(Std_VersionInfoType *versioninfo)
 {
+#if (PORT_DEV_ERROR_DETECT == STD_ON)
+    /* Check if input pointer is not Null pointer */
+    if (NULL_PTR == versioninfo)
+    {
+        /* Report to DET  */
+        Det_ReportError(PORT_MODULE_ID, PORT_INSTANCE_ID,
+        PORT_GET_VERSION_INFO_SID,
+                        PORT_E_PARAM_POINTER);
+    }
+    else
+#endif /* (DIO_DEV_ERROR_DETECT == STD_ON) */
+    {
+        /* Copy the vendor Id */
+        versioninfo->vendorID = (uint16) PORT_VENDOR_ID;
+        /* Copy the module Id */
+        versioninfo->moduleID = (uint16) PORT_MODULE_ID;
+        /* Copy Software Major Version */
+        versioninfo->sw_major_version = (uint8) PORT_SW_MAJOR_VERSION;
+        /* Copy Software Minor Version */
+        versioninfo->sw_minor_version = (uint8) PORT_SW_MINOR_VERSION;
+        /* Copy Software Patch Version */
+        versioninfo->sw_patch_version = (uint8) PORT_SW_PATCH_VERSION;
+    }
 }
 #endif
 
