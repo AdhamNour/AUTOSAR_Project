@@ -3,6 +3,7 @@
 ******************************************************************************
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >> Linked Tue Jan  2 10:40:29 2024
 
 OUTPUT FILE NAME:   <AUTOSAR_Project.out>
@@ -19,12 +20,19 @@ ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000d81
 OUTPUT FILE NAME:   <AUTOSAR_Project.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000e3d
 >>>>>>> Port_RefreshPortDirection
+=======
+>> Linked Tue Jan  2 11:09:55 2024
+
+OUTPUT FILE NAME:   <AUTOSAR_Project.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000f0d
+>>>>>>> Port_SetPinMode
 
 
 MEMORY CONFIGURATION
 
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   FLASH                 00000000   00040000  000010ce  0003ef32  R  X
@@ -34,6 +42,9 @@ MEMORY CONFIGURATION
 =======
   FLASH                 00000000   00040000  00001062  0003ef9e  R  X
 >>>>>>> Port_RefreshPortDirection
+=======
+  FLASH                 00000000   00040000  00001132  0003eece  R  X
+>>>>>>> Port_SetPinMode
   SRAM                  20000000   00008000  00000230  00007dd0  RW X
 
 
@@ -41,6 +52,7 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 00000000    00000000    000010d4   000010d4    r-x
@@ -62,6 +74,13 @@ run origin  load origin   length   init length attrs members
   00000ed2    00000ed2    0000015c   0000015c    r-- .const
   00001030    00001030    00000034   00000034    r-- .cinit
 >>>>>>> Port_RefreshPortDirection
+=======
+00000000    00000000    00001134   00001134    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    00000d36   00000d36    r-x .text
+  00000fa2    00000fa2    0000015c   0000015c    r-- .const
+  00001100    00001100    00000034   00000034    r-- .cinit
+>>>>>>> Port_SetPinMode
 20000000    20000000    00000230   00000000    rw-
   20000000    20000000    00000200   00000000    rw- .stack
   20000200    20000200    00000030   00000000    rw- .data
@@ -75,6 +94,7 @@ section   page    origin      length       input sections
 .intvecs   0    00000000    0000026c     
                   00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .text      0    0000026c    00000cd2     
@@ -171,6 +191,38 @@ section   page    origin      length       input sections
                   00001054    00000008     (__TI_handler_table)
                   0000105c    00000008     (__TI_cinit_table)
 >>>>>>> Port_RefreshPortDirection
+=======
+.text      0    0000026c    00000d36     
+                  0000026c    00000610     Port.obj (.text)
+                  0000087c    0000030c     Dio.obj (.text)
+                  00000b88    000000a8     Os.obj (.text)
+                  00000c30    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.asm.obj (.text)
+                  00000ccc    0000007c     Button.obj (.text)
+                  00000d48    0000007c     Gpt.obj (.text)
+                  00000dc4    00000068     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
+                  00000e2c    0000005c     App.obj (.text)
+                  00000e88    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  00000ecc    0000003e     Led.obj (.text)
+                  00000f0a    00000002     --HOLE-- [fill = 0]
+                  00000f0c    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00000f40    00000020     Mcu.obj (.text)
+                  00000f60    00000016     Det.obj (.text)
+                  00000f76    0000000e     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  00000f84    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  00000f90    0000000a     main.obj (.text)
+                  00000f9a    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  00000f9e    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.const     0    00000fa2    0000015c     
+                  00000fa2    00000158     Port_PBcfg.obj (.const:Port_PinConfig)
+                  000010fa    00000004     Dio_PBcfg.obj (.const:Dio_Configuration)
+
+.cinit     0    00001100    00000034     
+                  00001100    00000023     (.cinit..data.load) [load image, compression = lzss]
+                  00001123    00000001     --HOLE-- [fill = 0]
+                  00001124    00000008     (__TI_handler_table)
+                  0000112c    00000008     (__TI_cinit_table)
+>>>>>>> Port_SetPinMode
 
 .init_array 
 *          0    00000000    00000000     UNINITIALIZED
@@ -217,6 +269,7 @@ MODULE SUMMARY
     .\MCAL\IO\Port\
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        Port.obj                       1452   0         32     
        Port_PBcfg.obj                 0      344       0      
     +--+------------------------------+------+---------+---------+
@@ -233,6 +286,12 @@ MODULE SUMMARY
     +--+------------------------------+------+---------+---------+
        Total:                         1344   344       32     
 >>>>>>> Port_RefreshPortDirection
+=======
+       Port.obj                       1552   0         32     
+       Port_PBcfg.obj                 0      344       0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         1552   344       32     
+>>>>>>> Port_SetPinMode
                                                               
     C:\ti\ccs1250\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
        memcpy_t2.asm.obj              156    0         0      
@@ -250,6 +309,7 @@ MODULE SUMMARY
     +--+------------------------------+------+---------+---------+
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        Grand Total:                   3280   1019      560    
 =======
        Grand Total:                   2984   1019      560    
@@ -257,10 +317,14 @@ MODULE SUMMARY
 =======
        Grand Total:                   3172   1019      560    
 >>>>>>> Port_RefreshPortDirection
+=======
+       Grand Total:                   3380   1019      560    
+>>>>>>> Port_SetPinMode
 
 
 LINKER GENERATED COPY TABLES
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 __TI_cinit_table @ 000010cc records: 1, size/record: 8, table size: 8
@@ -273,10 +337,15 @@ __TI_cinit_table @ 00000fa4 records: 1, size/record: 8, table size: 8
 __TI_cinit_table @ 0000105c records: 1, size/record: 8, table size: 8
 	.data: load addr=00001030, load size=00000023 bytes, run addr=20000200, run size=00000030 bytes, compression=lzss
 >>>>>>> Port_RefreshPortDirection
+=======
+__TI_cinit_table @ 0000112c records: 1, size/record: 8, table size: 8
+	.data: load addr=00001100, load size=00000023 bytes, run addr=20000200, run size=00000030 bytes, compression=lzss
+>>>>>>> Port_SetPinMode
 
 
 LINKER GENERATED HANDLER TABLE
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 __TI_handler_table @ 000010c4 records: 2, size/record: 4, table size: 8
@@ -286,6 +355,9 @@ __TI_handler_table @ 00000f9c records: 2, size/record: 4, table size: 8
 =======
 __TI_handler_table @ 00001054 records: 2, size/record: 4, table size: 8
 >>>>>>> Port_RefreshPortDirection
+=======
+__TI_handler_table @ 00001124 records: 2, size/record: 4, table size: 8
+>>>>>>> Port_SetPinMode
 	index: 0, handler: __TI_decompress_lzss
 	index: 1, handler: __TI_decompress_none
 
@@ -294,6 +366,7 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 
 address   name                          
 -------   ----                          
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 00000ded  App_Task                      
@@ -426,10 +499,55 @@ address   name
 00000cf5  __TI_decompress_lzss          
 00000ea7  __TI_decompress_none          
 >>>>>>> Port_RefreshPortDirection
+=======
+00000e51  App_Task                      
+00000ccd  Button_GetState               
+00000cd3  Button_RefreshState           
+00000e41  Button_Task                   
+00000f9f  C$$EXIT                       
+00000f61  Det_ReportError               
+000010fa  Dio_Configuration             
+00000a5b  Dio_FlipChannel               
+0000087d  Dio_Init                      
+00000981  Dio_ReadChannel               
+000008a1  Dio_WriteChannel              
+00000e2d  Init_Task                     
+00000ee5  Led_RefreshOutput             
+00000ed9  Led_SetOff                    
+00000ecd  Led_SetOn                     
+00000e49  Led_Task                      
+00000efd  Led_Toggle                    
+00000f41  Mcu_Init                      
+00000ba3  Os_NewTimerTick               
+00000bb3  Os_Scheduler                  
+00000b89  Os_start                      
+000006a3  Port_GetVersionInfo           
+0000026d  Port_Init                     
+00000fa2  Port_PinConfig                
+000006a1  Port_RefreshPortDirection     
+00000691  Port_SetPinDirection          
+000006ad  Port_SetPinMode               
+00000f85  ResetISR                      
+00000d49  SysTick_Handler               
+00000da1  SysTick_SetCallBack           
+00000d59  SysTick_Start                 
+00000d99  SysTick_Stop                  
+20000200  __STACK_END                   
+00000200  __STACK_SIZE                  
+20000200  __STACK_TOP                   
+0000112c  __TI_CINIT_Base               
+00001134  __TI_CINIT_Limit              
+00001124  __TI_Handler_Table_Base       
+0000112c  __TI_Handler_Table_Limit      
+00000e89  __TI_auto_init_nobinit_nopinit
+00000dc5  __TI_decompress_lzss          
+00000f77  __TI_decompress_none          
+>>>>>>> Port_SetPinMode
 ffffffff  __TI_pprof_out_hndl           
 ffffffff  __TI_prof_data_size           
 ffffffff  __TI_prof_data_start          
 00000000  __TI_static_base__            
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 00000bcd  __aeabi_memcpy                
@@ -445,12 +563,18 @@ ffffffff  __TI_prof_data_start
 00000b61  __aeabi_memcpy4               
 00000b61  __aeabi_memcpy8               
 >>>>>>> Port_RefreshPortDirection
+=======
+00000c31  __aeabi_memcpy                
+00000c31  __aeabi_memcpy4               
+00000c31  __aeabi_memcpy8               
+>>>>>>> Port_SetPinMode
 ffffffff  __binit__                     
 ffffffff  __c_args__                    
 UNDEFED   __mpu_init                    
 20000000  __stack                       
 20000000  __start___llvm_prf_cnts       
 20000000  __stop___llvm_prf_cnts        
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 00000ea9  _c_int00_noargs               
@@ -481,6 +605,16 @@ ffffffff  binit
 00000ec1  main                          
 00000b61  memcpy                        
 >>>>>>> Port_RefreshPortDirection
+=======
+00000f0d  _c_int00_noargs               
+UNDEFED   _system_post_cinit            
+00000f9b  _system_pre_init              
+00000f9f  abort                         
+ffffffff  binit                         
+00000000  g_pfnVectors                  
+00000f91  main                          
+00000c31  memcpy                        
+>>>>>>> Port_SetPinMode
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -542,6 +676,7 @@ address   name
 000006a1  Port_RefreshPortDirection     
 <<<<<<< HEAD
 000006a3  Port_GetVersionInfo           
+<<<<<<< HEAD
 000006db  Port_SetPinMode               
 000006f1  Dio_Init                      
 00000715  Dio_WriteChannel              
@@ -632,6 +767,51 @@ address   name
 0000105c  __TI_Handler_Table_Limit      
 00001064  __TI_CINIT_Limit              
 >>>>>>> Port_RefreshPortDirection
+=======
+000006ad  Port_SetPinMode               
+0000087d  Dio_Init                      
+000008a1  Dio_WriteChannel              
+00000981  Dio_ReadChannel               
+00000a5b  Dio_FlipChannel               
+00000b89  Os_start                      
+00000ba3  Os_NewTimerTick               
+00000bb3  Os_Scheduler                  
+00000c31  __aeabi_memcpy                
+00000c31  __aeabi_memcpy4               
+00000c31  __aeabi_memcpy8               
+00000c31  memcpy                        
+00000ccd  Button_GetState               
+00000cd3  Button_RefreshState           
+00000d49  SysTick_Handler               
+00000d59  SysTick_Start                 
+00000d99  SysTick_Stop                  
+00000da1  SysTick_SetCallBack           
+00000dc5  __TI_decompress_lzss          
+00000e2d  Init_Task                     
+00000e41  Button_Task                   
+00000e49  Led_Task                      
+00000e51  App_Task                      
+00000e89  __TI_auto_init_nobinit_nopinit
+00000ecd  Led_SetOn                     
+00000ed9  Led_SetOff                    
+00000ee5  Led_RefreshOutput             
+00000efd  Led_Toggle                    
+00000f0d  _c_int00_noargs               
+00000f41  Mcu_Init                      
+00000f61  Det_ReportError               
+00000f77  __TI_decompress_none          
+00000f85  ResetISR                      
+00000f91  main                          
+00000f9b  _system_pre_init              
+00000f9f  C$$EXIT                       
+00000f9f  abort                         
+00000fa2  Port_PinConfig                
+000010fa  Dio_Configuration             
+00001124  __TI_Handler_Table_Base       
+0000112c  __TI_CINIT_Base               
+0000112c  __TI_Handler_Table_Limit      
+00001134  __TI_CINIT_Limit              
+>>>>>>> Port_SetPinMode
 20000000  __stack                       
 20000000  __start___llvm_prf_cnts       
 20000000  __stop___llvm_prf_cnts        

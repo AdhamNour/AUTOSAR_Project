@@ -4,6 +4,7 @@
    <copyright>Copyright (c) 1996-2018 Texas Instruments Incorporated</copyright>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    <link_time>0x6593cbfd</link_time>
 =======
    <link_time>0x6593cf42</link_time>
@@ -11,10 +12,14 @@
 =======
    <link_time>0x6595a187</link_time>
 >>>>>>> Port_RefreshPortDirection
+=======
+   <link_time>0x6593d2e3</link_time>
+>>>>>>> Port_SetPinMode
    <link_errors>0x0</link_errors>
    <output_file>AUTOSAR_Project.out</output_file>
    <entry_point>
       <name>_c_int00_noargs</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <address>0xea9</address>
@@ -24,6 +29,9 @@
 =======
       <address>0xe3d</address>
 >>>>>>> Port_RefreshPortDirection
+=======
+      <address>0xf0d</address>
+>>>>>>> Port_SetPinMode
    </entry_point>
    <input_file_list>
       <input_file id="fl-2">
@@ -196,6 +204,7 @@
          <run_address>0x26c</run_address>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <size>0x5ac</size>
 =======
          <size>0x484</size>
@@ -203,10 +212,14 @@
 =======
          <size>0x540</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0x610</size>
+>>>>>>> Port_SetPinMode
          <input_file_ref idref="fl-d"/>
       </object_component>
       <object_component id="oc-151">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x818</load_address>
@@ -219,11 +232,16 @@
          <load_address>0x7ac</load_address>
          <run_address>0x7ac</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x87c</load_address>
+         <run_address>0x87c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x30c</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
       <object_component id="oc-d6">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xb24</load_address>
@@ -236,11 +254,16 @@
          <load_address>0xab8</load_address>
          <run_address>0xab8</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xb88</load_address>
+         <run_address>0xb88</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xa8</size>
          <input_file_ref idref="fl-8"/>
       </object_component>
       <object_component id="oc-41">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xbcc</load_address>
@@ -253,11 +276,16 @@
          <load_address>0xb60</load_address>
          <run_address>0xb60</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xc30</load_address>
+         <run_address>0xc30</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x9c</size>
          <input_file_ref idref="fl-cc"/>
       </object_component>
       <object_component id="oc-157">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xc68</load_address>
@@ -270,11 +298,16 @@
          <load_address>0xbfc</load_address>
          <run_address>0xbfc</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xccc</load_address>
+         <run_address>0xccc</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x7c</size>
          <input_file_ref idref="fl-3"/>
       </object_component>
       <object_component id="oc-2d">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xce4</load_address>
@@ -287,11 +320,16 @@
          <load_address>0xc78</load_address>
          <run_address>0xc78</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xd48</load_address>
+         <run_address>0xd48</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x7c</size>
          <input_file_ref idref="fl-5"/>
       </object_component>
       <object_component id="oc-15">
          <name>.text:decompress:lzss:__TI_decompress_lzss</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xd60</load_address>
@@ -304,11 +342,16 @@
          <load_address>0xcf4</load_address>
          <run_address>0xcf4</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xdc4</load_address>
+         <run_address>0xdc4</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x68</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-11b">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xdc8</load_address>
@@ -321,11 +364,16 @@
          <load_address>0xd5c</load_address>
          <run_address>0xd5c</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xe2c</load_address>
+         <run_address>0xe2c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x5c</size>
          <input_file_ref idref="fl-2"/>
       </object_component>
       <object_component id="oc-e9">
          <name>.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xe24</load_address>
@@ -338,11 +386,16 @@
          <load_address>0xdb8</load_address>
          <run_address>0xdb8</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xe88</load_address>
+         <run_address>0xe88</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x44</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-15d">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xe68</load_address>
@@ -355,11 +408,16 @@
          <load_address>0xdfc</load_address>
          <run_address>0xdfc</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xecc</load_address>
+         <run_address>0xecc</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x3e</size>
          <input_file_ref idref="fl-6"/>
       </object_component>
       <object_component id="oc-5f">
          <name>.text:_c_int00_noargs:_c_int00_noargs</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xea8</load_address>
@@ -372,11 +430,16 @@
          <load_address>0xe3c</load_address>
          <run_address>0xe3c</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf0c</load_address>
+         <run_address>0xf0c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x34</size>
          <input_file_ref idref="fl-cb"/>
       </object_component>
       <object_component id="oc-145">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xedc</load_address>
@@ -389,11 +452,16 @@
          <load_address>0xe70</load_address>
          <run_address>0xe70</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf40</load_address>
+         <run_address>0xf40</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x20</size>
          <input_file_ref idref="fl-7"/>
       </object_component>
       <object_component id="oc-18f">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xefc</load_address>
@@ -406,11 +474,16 @@
          <load_address>0xe90</load_address>
          <run_address>0xe90</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf60</load_address>
+         <run_address>0xf60</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x16</size>
          <input_file_ref idref="fl-4"/>
       </object_component>
       <object_component id="oc-1b">
          <name>.text:decompress:none:__TI_decompress_none</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf12</load_address>
@@ -423,11 +496,16 @@
          <load_address>0xea6</load_address>
          <run_address>0xea6</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf76</load_address>
+         <run_address>0xf76</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xe</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-27">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf20</load_address>
@@ -440,11 +518,16 @@
          <load_address>0xeb4</load_address>
          <run_address>0xeb4</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf84</load_address>
+         <run_address>0xf84</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xc</size>
          <input_file_ref idref="fl-a"/>
       </object_component>
       <object_component id="oc-ab">
          <name>.text</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf2c</load_address>
@@ -457,11 +540,16 @@
          <load_address>0xec0</load_address>
          <run_address>0xec0</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf90</load_address>
+         <run_address>0xf90</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xa</size>
          <input_file_ref idref="fl-9"/>
       </object_component>
       <object_component id="oc-a5">
          <name>.text:_system_pre_init</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf36</load_address>
@@ -474,11 +562,16 @@
          <load_address>0xeca</load_address>
          <run_address>0xeca</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf9a</load_address>
+         <run_address>0xf9a</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x4</size>
          <input_file_ref idref="fl-cf"/>
       </object_component>
       <object_component id="oc-dd">
          <name>.text:abort:abort</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf3a</load_address>
@@ -491,11 +584,16 @@
          <load_address>0xece</load_address>
          <run_address>0xece</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf9e</load_address>
+         <run_address>0xf9e</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x4</size>
          <input_file_ref idref="fl-d1"/>
       </object_component>
       <object_component id="oc-163">
          <name>.const:Port_PinConfig</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf3e</load_address>
@@ -508,11 +606,16 @@
          <load_address>0xed2</load_address>
          <run_address>0xed2</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xfa2</load_address>
+         <run_address>0xfa2</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x158</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-166">
          <name>.const:Dio_Configuration</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1096</load_address>
@@ -525,11 +628,16 @@
          <load_address>0x102a</load_address>
          <run_address>0x102a</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x10fa</load_address>
+         <run_address>0x10fa</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x4</size>
          <input_file_ref idref="fl-c"/>
       </object_component>
       <object_component id="oc-20a">
          <name>.cinit..data.load</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x10a0</load_address>
@@ -542,10 +650,15 @@
          <load_address>0x1030</load_address>
          <run_address>0x1030</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1100</load_address>
+         <run_address>0x1100</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x23</size>
       </object_component>
       <object_component id="oc-208">
          <name>__TI_handler_table</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x10c4</load_address>
@@ -558,10 +671,15 @@
          <load_address>0x1054</load_address>
          <run_address>0x1054</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1124</load_address>
+         <run_address>0x1124</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x8</size>
       </object_component>
       <object_component id="oc-209">
          <name>__TI_cinit_table</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x10cc</load_address>
@@ -574,6 +692,10 @@
          <load_address>0x105c</load_address>
          <run_address>0x105c</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x112c</load_address>
+         <run_address>0x112c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x8</size>
       </object_component>
       <object_component id="oc-169">
@@ -696,6 +818,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-158">
 =======
       <object_component id="oc-159">
@@ -703,6 +826,9 @@
 =======
       <object_component id="oc-15a">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-15a">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0xc23</load_address>
          <run_address>0xc23</run_address>
@@ -710,10 +836,14 @@
          <input_file_ref idref="fl-3"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-193">
 =======
       <object_component id="oc-192">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-190">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0xe00</load_address>
          <run_address>0xe00</run_address>
@@ -736,6 +866,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-31">
 =======
       <object_component id="oc-2f">
@@ -743,13 +874,20 @@
 =======
       <object_component id="oc-2e">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-2e">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0x12bb</load_address>
          <run_address>0x12bb</run_address>
          <size>0x249</size>
          <input_file_ref idref="fl-5"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-161">
+=======
+      <object_component id="oc-160">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0x1504</load_address>
          <run_address>0x1504</run_address>
@@ -771,10 +909,14 @@
          <input_file_ref idref="fl-8"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-d9">
 =======
       <object_component id="oc-d7">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-d9">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0x1939</load_address>
          <run_address>0x1939</run_address>
@@ -782,10 +924,14 @@
          <input_file_ref idref="fl-8"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-af">
 =======
       <object_component id="oc-ae">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-af">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0x1b78</load_address>
          <run_address>0x1b78</run_address>
@@ -853,10 +999,14 @@
          <input_file_ref idref="fl-b"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-153">
 =======
       <object_component id="oc-155">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-155">
+>>>>>>> Port_SetPinMode
          <name>.debug_info</name>
          <load_address>0x2bb2</load_address>
          <run_address>0x2bb2</run_address>
@@ -904,6 +1054,7 @@
          <name>.debug_info</name>
          <load_address>0x3662</load_address>
          <run_address>0x3662</run_address>
+<<<<<<< HEAD
          <size>0x485</size>
 =======
       <object_component id="oc-14c">
@@ -919,10 +1070,14 @@
          <run_address>0x3662</run_address>
          <size>0x4c8</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0x482</size>
+>>>>>>> Port_SetPinMode
          <input_file_ref idref="fl-d"/>
       </object_component>
       <object_component id="oc-1b3">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x3ae7</load_address>
@@ -935,11 +1090,16 @@
          <load_address>0x3b2a</load_address>
          <run_address>0x3b2a</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x3ae4</load_address>
+         <run_address>0x3ae4</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xbe</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-164">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x3ba5</load_address>
@@ -952,11 +1112,16 @@
          <load_address>0x3be8</load_address>
          <run_address>0x3be8</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x3ba2</load_address>
+         <run_address>0x3ba2</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xd7</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-4c">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x3c7c</load_address>
@@ -988,11 +1153,23 @@
          <load_address>0x3f67</load_address>
          <run_address>0x3f67</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x3c79</load_address>
+         <run_address>0x3c79</run_address>
+         <size>0x2a8</size>
+         <input_file_ref idref="fl-c9"/>
+      </object_component>
+      <object_component id="oc-1e">
+         <name>.debug_info</name>
+         <load_address>0x3f21</load_address>
+         <run_address>0x3f21</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x1ea</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-47">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x410e</load_address>
@@ -1005,11 +1182,16 @@
          <load_address>0x4151</load_address>
          <run_address>0x4151</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x410b</load_address>
+         <run_address>0x410b</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x46</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-91">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4154</load_address>
@@ -1022,11 +1204,16 @@
          <load_address>0x4197</load_address>
          <run_address>0x4197</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x4151</load_address>
+         <run_address>0x4151</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x2c</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-8f">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4180</load_address>
@@ -1058,11 +1245,23 @@
          <load_address>0x4461</load_address>
          <run_address>0x4461</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x417d</load_address>
+         <run_address>0x417d</run_address>
+         <size>0x29e</size>
+         <input_file_ref idref="fl-ca"/>
+      </object_component>
+      <object_component id="oc-17">
+         <name>.debug_info</name>
+         <load_address>0x441b</load_address>
+         <run_address>0x441b</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x250</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-37">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x466e</load_address>
@@ -1075,11 +1274,16 @@
          <load_address>0x46b1</load_address>
          <run_address>0x46b1</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x466b</load_address>
+         <run_address>0x466b</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x60</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-c6">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x46ce</load_address>
@@ -1092,11 +1296,16 @@
          <load_address>0x4711</load_address>
          <run_address>0x4711</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x46cb</load_address>
+         <run_address>0x46cb</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x46</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-8a">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4714</load_address>
@@ -1109,11 +1318,16 @@
          <load_address>0x4757</load_address>
          <run_address>0x4757</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x4711</load_address>
+         <run_address>0x4711</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x39</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-25">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x474d</load_address>
@@ -1145,11 +1359,23 @@
          <load_address>0x489b</load_address>
          <run_address>0x489b</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x474a</load_address>
+         <run_address>0x474a</run_address>
+         <size>0x10b</size>
+         <input_file_ref idref="fl-cb"/>
+      </object_component>
+      <object_component id="oc-62">
+         <name>.debug_info</name>
+         <load_address>0x4855</load_address>
+         <run_address>0x4855</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x1a9</size>
          <input_file_ref idref="fl-cb"/>
       </object_component>
       <object_component id="oc-43">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4a01</load_address>
@@ -1162,11 +1388,16 @@
          <load_address>0x4a44</load_address>
          <run_address>0x4a44</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x49fe</load_address>
+         <run_address>0x49fe</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x119</size>
          <input_file_ref idref="fl-cc"/>
       </object_component>
       <object_component id="oc-130">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4b1a</load_address>
@@ -1179,11 +1410,16 @@
          <load_address>0x4b5d</load_address>
          <run_address>0x4b5d</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x4b17</load_address>
+         <run_address>0x4b17</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x4b3</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-ea">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x4fcd</load_address>
@@ -1196,11 +1432,16 @@
          <load_address>0x5010</load_address>
          <run_address>0x5010</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x4fca</load_address>
+         <run_address>0x4fca</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x1a6</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-17d">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x5173</load_address>
@@ -1213,11 +1454,16 @@
          <load_address>0x51b6</load_address>
          <run_address>0x51b6</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x5170</load_address>
+         <run_address>0x5170</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x39</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-1ba">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x51ac</load_address>
@@ -1230,11 +1476,16 @@
          <load_address>0x51ef</load_address>
          <run_address>0x51ef</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x51a9</load_address>
+         <run_address>0x51a9</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x39</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-182">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x51e5</load_address>
@@ -1247,11 +1498,16 @@
          <load_address>0x5228</load_address>
          <run_address>0x5228</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x51e2</load_address>
+         <run_address>0x51e2</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x39</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-187">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x521e</load_address>
@@ -1283,11 +1539,23 @@
          <load_address>0x532e</load_address>
          <run_address>0x532e</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x521b</load_address>
+         <run_address>0x521b</run_address>
+         <size>0xcd</size>
+         <input_file_ref idref="fl-ce"/>
+      </object_component>
+      <object_component id="oc-a9">
+         <name>.debug_info</name>
+         <load_address>0x52e8</load_address>
+         <run_address>0x52e8</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x153</size>
          <input_file_ref idref="fl-cf"/>
       </object_component>
       <object_component id="oc-e1">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x543e</load_address>
@@ -1300,11 +1568,16 @@
          <load_address>0x5481</load_address>
          <run_address>0x5481</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x543b</load_address>
+         <run_address>0x543b</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x122</size>
          <input_file_ref idref="fl-d1"/>
       </object_component>
       <object_component id="oc-20d">
          <name>.debug_info</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x5560</load_address>
@@ -1317,6 +1590,10 @@
          <load_address>0x55a3</load_address>
          <run_address>0x55a3</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x555d</load_address>
+         <run_address>0x555d</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x87</size>
       </object_component>
       <object_component id="oc-1de">
@@ -1376,10 +1653,14 @@
          <input_file_ref idref="fl-3"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-15c">
 =======
       <object_component id="oc-158">
 >>>>>>> Port_GetVersionInfo
+=======
+      <object_component id="oc-158">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x27b</load_address>
          <run_address>0x27b</run_address>
@@ -1387,10 +1668,14 @@
          <input_file_ref idref="fl-3"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-191">
 =======
       <object_component id="oc-194">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-193">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x2f0</load_address>
          <run_address>0x2f0</run_address>
@@ -1412,10 +1697,14 @@
          <input_file_ref idref="fl-5"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-2e">
 =======
       <object_component id="oc-31">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-31">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x37a</load_address>
          <run_address>0x37a</run_address>
@@ -1444,17 +1733,25 @@
          <input_file_ref idref="fl-8"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-d7">
 =======
       <object_component id="oc-da">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-d7">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x510</load_address>
          <run_address>0x510</run_address>
          <size>0x97</size>
          <input_file_ref idref="fl-8"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-ad">
+=======
+      <object_component id="oc-ae">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x5a7</load_address>
          <run_address>0x5a7</run_address>
@@ -1518,10 +1815,14 @@
          <input_file_ref idref="fl-b"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-152">
 =======
       <object_component id="oc-153">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-154">
+>>>>>>> Port_SetPinMode
          <name>.debug_line</name>
          <load_address>0x8d2</load_address>
          <run_address>0x8d2</run_address>
@@ -1565,6 +1866,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Port_RefreshPortDirection
       <object_component id="oc-150">
@@ -1583,10 +1885,18 @@
 =======
          <size>0x190</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-14c">
+         <name>.debug_line</name>
+         <load_address>0xb50</load_address>
+         <run_address>0xb50</run_address>
+         <size>0x12c</size>
+>>>>>>> Port_SetPinMode
          <input_file_ref idref="fl-d"/>
       </object_component>
       <object_component id="oc-1da">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xc80</load_address>
@@ -1599,11 +1909,16 @@
          <load_address>0xce0</load_address>
          <run_address>0xce0</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xc7c</load_address>
+         <run_address>0xc7c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x20</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-1b2">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xca0</load_address>
@@ -1616,11 +1931,16 @@
          <load_address>0xd00</load_address>
          <run_address>0xd00</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xc9c</load_address>
+         <run_address>0xc9c</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x40</size>
          <input_file_ref idref="fl-e"/>
       </object_component>
       <object_component id="oc-97">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xce0</load_address>
@@ -1633,11 +1953,16 @@
          <load_address>0xd40</load_address>
          <run_address>0xd40</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xcdc</load_address>
+         <run_address>0xcdc</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x20</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-20">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xd00</load_address>
@@ -1650,11 +1975,16 @@
          <load_address>0xd60</load_address>
          <run_address>0xd60</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xcfc</load_address>
+         <run_address>0xcfc</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x55</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-4a">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xd55</load_address>
@@ -1667,11 +1997,16 @@
          <load_address>0xdb5</load_address>
          <run_address>0xdb5</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xd51</load_address>
+         <run_address>0xd51</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x3a</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-94">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xd8f</load_address>
@@ -1684,11 +2019,16 @@
          <load_address>0xdef</load_address>
          <run_address>0xdef</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xd8b</load_address>
+         <run_address>0xd8b</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x92</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
       <object_component id="oc-cc">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xe21</load_address>
@@ -1718,11 +2058,23 @@
          <load_address>0xea1</load_address>
          <run_address>0xea1</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xe1d</load_address>
+         <run_address>0xe1d</run_address>
+         <size>0x20</size>
+         <input_file_ref idref="fl-ca"/>
+      </object_component>
+      <object_component id="oc-1a">
+         <name>.debug_line</name>
+         <load_address>0xe3d</load_address>
+         <run_address>0xe3d</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xa9</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-3a">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xeea</load_address>
@@ -1735,11 +2087,16 @@
          <load_address>0xf4a</load_address>
          <run_address>0xf4a</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xee6</load_address>
+         <run_address>0xee6</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x3a</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-c9">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xf24</load_address>
@@ -1752,11 +2109,16 @@
          <load_address>0xf84</load_address>
          <run_address>0xf84</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xf20</load_address>
+         <run_address>0xf20</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x9a</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-8d">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0xfbe</load_address>
@@ -1769,11 +2131,16 @@
          <load_address>0x101e</load_address>
          <run_address>0x101e</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xfba</load_address>
+         <run_address>0xfba</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x96</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-72">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1054</load_address>
@@ -1786,11 +2153,16 @@
          <load_address>0x10b4</load_address>
          <run_address>0x10b4</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1050</load_address>
+         <run_address>0x1050</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x33</size>
          <input_file_ref idref="fl-cb"/>
       </object_component>
       <object_component id="oc-61">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1087</load_address>
@@ -1803,11 +2175,16 @@
          <load_address>0x10e7</load_address>
          <run_address>0x10e7</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1083</load_address>
+         <run_address>0x1083</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x45</size>
          <input_file_ref idref="fl-cb"/>
       </object_component>
       <object_component id="oc-42">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x10cc</load_address>
@@ -1820,11 +2197,16 @@
          <load_address>0x112c</load_address>
          <run_address>0x112c</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x10c8</load_address>
+         <run_address>0x10c8</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x88</size>
          <input_file_ref idref="fl-cc"/>
       </object_component>
       <object_component id="oc-17c">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1154</load_address>
@@ -1837,11 +2219,16 @@
          <load_address>0x11b4</load_address>
          <run_address>0x11b4</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1150</load_address>
+         <run_address>0x1150</run_address>
+>>>>>>> Port_SetPinMode
          <size>0xbf</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-ed">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1213</load_address>
@@ -1854,11 +2241,16 @@
          <load_address>0x1273</load_address>
          <run_address>0x1273</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x120f</load_address>
+         <run_address>0x120f</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x6f</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-180">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x1282</load_address>
@@ -1871,11 +2263,16 @@
          <load_address>0x12e2</load_address>
          <run_address>0x12e2</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x127e</load_address>
+         <run_address>0x127e</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x2e</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-1bd">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x12b0</load_address>
@@ -1888,11 +2285,16 @@
          <load_address>0x1310</load_address>
          <run_address>0x1310</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x12ac</load_address>
+         <run_address>0x12ac</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x9a</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-185">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x134a</load_address>
@@ -1905,11 +2307,16 @@
          <load_address>0x13aa</load_address>
          <run_address>0x13aa</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1346</load_address>
+         <run_address>0x1346</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x97</size>
          <input_file_ref idref="fl-ce"/>
       </object_component>
       <object_component id="oc-18a">
          <name>.debug_line</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x13e1</load_address>
@@ -1960,6 +2367,24 @@
          <load_address>0x1514</load_address>
          <run_address>0x1514</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x13dd</load_address>
+         <run_address>0x13dd</run_address>
+         <size>0x93</size>
+         <input_file_ref idref="fl-ce"/>
+      </object_component>
+      <object_component id="oc-a7">
+         <name>.debug_line</name>
+         <load_address>0x1470</load_address>
+         <run_address>0x1470</run_address>
+         <size>0x40</size>
+         <input_file_ref idref="fl-cf"/>
+      </object_component>
+      <object_component id="oc-df">
+         <name>.debug_line</name>
+         <load_address>0x14b0</load_address>
+         <run_address>0x14b0</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x3c</size>
          <input_file_ref idref="fl-d1"/>
       </object_component>
@@ -1972,6 +2397,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-15b">
 =======
       <object_component id="oc-15c">
@@ -1979,6 +2405,9 @@
 =======
       <object_component id="oc-15c">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-15c">
+>>>>>>> Port_SetPinMode
          <name>.debug_frame</name>
          <load_address>0xa0</load_address>
          <run_address>0xa0</run_address>
@@ -1998,6 +2427,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-2f">
 =======
       <object_component id="oc-31">
@@ -2005,6 +2435,9 @@
 =======
       <object_component id="oc-32">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-32">
+>>>>>>> Port_SetPinMode
          <name>.debug_frame</name>
          <load_address>0x160</load_address>
          <run_address>0x160</run_address>
@@ -2027,6 +2460,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-db">
 =======
       <object_component id="oc-d9">
@@ -2034,13 +2468,20 @@
 =======
       <object_component id="oc-db">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-db">
+>>>>>>> Port_SetPinMode
          <name>.debug_frame</name>
          <load_address>0x2f0</load_address>
          <run_address>0x2f0</run_address>
          <size>0x84</size>
          <input_file_ref idref="fl-8"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-ac">
+=======
+      <object_component id="oc-ad">
+>>>>>>> Port_SetPinMode
          <name>.debug_frame</name>
          <load_address>0x374</load_address>
          <run_address>0x374</run_address>
@@ -2063,10 +2504,14 @@
          <input_file_ref idref="fl-a"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-156">
 =======
       <object_component id="oc-154">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-153">
+>>>>>>> Port_SetPinMode
          <name>.debug_frame</name>
          <load_address>0x45c</load_address>
          <run_address>0x45c</run_address>
@@ -2085,6 +2530,7 @@
          <name>.debug_frame</name>
          <load_address>0x514</load_address>
          <run_address>0x514</run_address>
+<<<<<<< HEAD
          <size>0xcc</size>
          <input_file_ref idref="fl-d"/>
       </object_component>
@@ -2103,18 +2549,40 @@
          <name>.debug_frame</name>
          <load_address>0x634</load_address>
          <run_address>0x634</run_address>
+=======
+         <size>0xc8</size>
+         <input_file_ref idref="fl-d"/>
+      </object_component>
+      <object_component id="oc-1d">
+         <name>.debug_frame</name>
+         <load_address>0x5dc</load_address>
+         <run_address>0x5dc</run_address>
+         <size>0x54</size>
+         <input_file_ref idref="fl-c9"/>
+      </object_component>
+      <object_component id="oc-19">
+         <name>.debug_frame</name>
+         <load_address>0x630</load_address>
+         <run_address>0x630</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x60</size>
          <input_file_ref idref="fl-ca"/>
       </object_component>
       <object_component id="oc-63">
          <name>.debug_frame</name>
+<<<<<<< HEAD
          <load_address>0x694</load_address>
          <run_address>0x694</run_address>
+=======
+         <load_address>0x690</load_address>
+         <run_address>0x690</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x50</size>
          <input_file_ref idref="fl-cb"/>
       </object_component>
       <object_component id="oc-ee">
          <name>.debug_frame</name>
+<<<<<<< HEAD
          <load_address>0x6e4</load_address>
          <run_address>0x6e4</run_address>
          <size>0x5c</size>
@@ -2139,6 +2607,24 @@
          <name>.debug_frame</name>
          <load_address>0x794</load_address>
          <run_address>0x794</run_address>
+=======
+         <load_address>0x6e0</load_address>
+         <run_address>0x6e0</run_address>
+         <size>0x5c</size>
+         <input_file_ref idref="fl-ce"/>
+      </object_component>
+      <object_component id="oc-a6">
+         <name>.debug_frame</name>
+         <load_address>0x73c</load_address>
+         <run_address>0x73c</run_address>
+         <size>0x54</size>
+         <input_file_ref idref="fl-cf"/>
+      </object_component>
+      <object_component id="oc-de">
+         <name>.debug_frame</name>
+         <load_address>0x790</load_address>
+         <run_address>0x790</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x54</size>
          <input_file_ref idref="fl-d1"/>
       </object_component>
@@ -2660,10 +3146,14 @@
          <input_file_ref idref="fl-2"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-15a">
 =======
       <object_component id="oc-15b">
 >>>>>>> Port_GetVersionInfo
+=======
+      <object_component id="oc-159">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x38</load_address>
          <run_address>0x38</run_address>
@@ -2671,10 +3161,14 @@
          <input_file_ref idref="fl-3"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-190">
 =======
       <object_component id="oc-191">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-191">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x60</load_address>
          <run_address>0x60</run_address>
@@ -2696,7 +3190,11 @@
          <size>0x38</size>
          <input_file_ref idref="fl-5"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-160">
+=======
+      <object_component id="oc-15f">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0xb8</load_address>
          <run_address>0xb8</run_address>
@@ -2717,7 +3215,11 @@
          <size>0x30</size>
          <input_file_ref idref="fl-8"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-ad">
+=======
+      <object_component id="oc-ac">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x140</load_address>
          <run_address>0x140</run_address>
@@ -2733,6 +3235,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-155">
 =======
       <object_component id="oc-152">
@@ -2740,13 +3243,20 @@
 =======
       <object_component id="oc-152">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-152">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x198</load_address>
          <run_address>0x198</run_address>
          <size>0x38</size>
          <input_file_ref idref="fl-b"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-14e">
+=======
+      <object_component id="oc-14d">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x1d0</load_address>
          <run_address>0x1d0</run_address>
@@ -2754,16 +3264,21 @@
          <input_file_ref idref="fl-d"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-1e">
 =======
       <object_component id="oc-1f">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-20">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x210</load_address>
          <run_address>0x210</run_address>
          <size>0x20</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <object_component id="oc-18">
@@ -2773,6 +3288,9 @@
 =======
       <object_component id="oc-16">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-16">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x230</load_address>
          <run_address>0x230</run_address>
@@ -2801,7 +3319,11 @@
          <size>0x20</size>
          <input_file_ref idref="fl-cc"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-ec">
+=======
+      <object_component id="oc-eb">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x290</load_address>
          <run_address>0x290</run_address>
@@ -2809,10 +3331,14 @@
          <input_file_ref idref="fl-ce"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-a8">
 =======
       <object_component id="oc-a7">
 >>>>>>> Port_GetVersionInfo
+=======
+      <object_component id="oc-a8">
+>>>>>>> Port_SetPinMode
          <name>.debug_aranges</name>
          <load_address>0x2b0</load_address>
          <run_address>0x2b0</run_address>
@@ -2846,6 +3372,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-159">
 =======
       <object_component id="oc-15a">
@@ -2853,6 +3380,9 @@
 =======
       <object_component id="oc-15b">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-15b">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x6f</load_address>
          <run_address>0x6f</run_address>
@@ -2879,6 +3409,7 @@
       </object_component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-32">
 =======
       <object_component id="oc-30">
@@ -2886,19 +3417,27 @@
 =======
       <object_component id="oc-2f">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-30">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x101</load_address>
          <run_address>0x101</run_address>
          <size>0x61</size>
          <input_file_ref idref="fl-5"/>
       </object_component>
+<<<<<<< HEAD
       <object_component id="oc-162">
+=======
+      <object_component id="oc-161">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x162</load_address>
          <run_address>0x162</run_address>
          <size>0x54</size>
          <input_file_ref idref="fl-6"/>
       </object_component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <object_component id="oc-149">
@@ -2908,6 +3447,9 @@
 =======
       <object_component id="oc-149">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-147">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x1b6</load_address>
          <run_address>0x1b6</run_address>
@@ -2922,16 +3464,21 @@
          <input_file_ref idref="fl-8"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-da">
 =======
       <object_component id="oc-d9">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-da">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x216</load_address>
          <run_address>0x216</run_address>
          <size>0x44</size>
          <input_file_ref idref="fl-8"/>
       </object_component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <object_component id="oc-b0">
@@ -2941,6 +3488,9 @@
 =======
       <object_component id="oc-af">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-b0">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x25a</load_address>
          <run_address>0x25a</run_address>
@@ -3019,16 +3569,21 @@
          <input_file_ref idref="fl-e"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-1d">
 =======
       <object_component id="oc-1e">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-1f">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x49e</load_address>
          <run_address>0x49e</run_address>
          <size>0x2b</size>
          <input_file_ref idref="fl-c9"/>
       </object_component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <object_component id="oc-17">
@@ -3038,6 +3593,9 @@
 =======
       <object_component id="oc-19">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-18">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x4c9</load_address>
          <run_address>0x4c9</run_address>
@@ -3052,10 +3610,14 @@
          <input_file_ref idref="fl-cb"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-63">
 =======
       <object_component id="oc-61">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-64">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x512</load_address>
          <run_address>0x512</run_address>
@@ -3063,10 +3625,14 @@
          <input_file_ref idref="fl-cb"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-44">
 =======
       <object_component id="oc-45">
 >>>>>>> Port_GetVersionInfo
+=======
+      <object_component id="oc-44">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x538</load_address>
          <run_address>0x538</run_address>
@@ -3085,10 +3651,14 @@
          <input_file_ref idref="fl-ce"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-a7">
 =======
       <object_component id="oc-aa">
 >>>>>>> Port_GetVersionInfo
+=======
+      <object_component id="oc-aa">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x58a</load_address>
          <run_address>0x58a</run_address>
@@ -3096,10 +3666,14 @@
          <input_file_ref idref="fl-cf"/>
       </object_component>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <object_component id="oc-e2">
 =======
       <object_component id="oc-e0">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <object_component id="oc-e2">
+>>>>>>> Port_SetPinMode
          <name>.debug_pubnames</name>
          <load_address>0x5b1</load_address>
          <run_address>0x5b1</run_address>
@@ -3242,6 +3816,7 @@
          <run_address>0x26c</run_address>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <size>0xcd2</size>
 =======
          <size>0xbaa</size>
@@ -3249,6 +3824,9 @@
 =======
          <size>0xc66</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0xd36</size>
+>>>>>>> Port_SetPinMode
          <contents>
             <object_component_ref idref="oc-14b"/>
             <object_component_ref idref="oc-151"/>
@@ -3274,6 +3852,7 @@
          <name>.const</name>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <load_address>0xf3e</load_address>
          <run_address>0xf3e</run_address>
 =======
@@ -3284,6 +3863,10 @@
          <load_address>0xed2</load_address>
          <run_address>0xed2</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0xfa2</load_address>
+         <run_address>0xfa2</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x15c</size>
          <contents>
             <object_component_ref idref="oc-163"/>
@@ -3292,6 +3875,7 @@
       </logical_group>
       <logical_group id="lg-6" display="no" color="cyan">
          <name>.cinit</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <load_address>0x10a0</load_address>
@@ -3304,6 +3888,10 @@
          <load_address>0x1030</load_address>
          <run_address>0x1030</run_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <load_address>0x1100</load_address>
+         <run_address>0x1100</run_address>
+>>>>>>> Port_SetPinMode
          <size>0x34</size>
          <contents>
             <object_component_ref idref="oc-20a"/>
@@ -3396,6 +3984,7 @@
          <run_address>0x0</run_address>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <size>0x55e7</size>
 =======
          <size>0x55d8</size>
@@ -3403,6 +3992,9 @@
 =======
          <size>0x562a</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0x55e4</size>
+>>>>>>> Port_SetPinMode
          <contents>
             <object_component_ref idref="oc-1d2"/>
             <object_component_ref idref="oc-11c"/>
@@ -3412,6 +4004,7 @@
             <object_component_ref idref="oc-3c"/>
             <object_component_ref idref="oc-78"/>
             <object_component_ref idref="oc-1ad"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <object_component_ref idref="oc-158"/>
@@ -3428,6 +4021,15 @@
 >>>>>>> Port_GetVersionInfo
             <object_component_ref idref="oc-15f"/>
             <object_component_ref idref="oc-147"/>
+=======
+            <object_component_ref idref="oc-15a"/>
+            <object_component_ref idref="oc-190"/>
+            <object_component_ref idref="oc-7d"/>
+            <object_component_ref idref="oc-75"/>
+            <object_component_ref idref="oc-2e"/>
+            <object_component_ref idref="oc-160"/>
+            <object_component_ref idref="oc-146"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-122"/>
             <object_component_ref idref="oc-d9"/>
             <object_component_ref idref="oc-af"/>
@@ -3455,10 +4057,14 @@
             <object_component_ref idref="oc-1a6"/>
             <object_component_ref idref="oc-1a3"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <object_component_ref idref="oc-153"/>
 =======
             <object_component_ref idref="oc-155"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-155"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-1b6"/>
             <object_component_ref idref="oc-167"/>
             <object_component_ref idref="oc-19c"/>
@@ -3473,6 +4079,7 @@
             <object_component_ref idref="oc-1b3"/>
             <object_component_ref idref="oc-164"/>
             <object_component_ref idref="oc-4c"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-1c"/>
 =======
             <object_component_ref idref="oc-14c"/>
@@ -3489,15 +4096,26 @@
 =======
             <object_component_ref idref="oc-17"/>
 >>>>>>> Port_GetVersionInfo
+=======
+            <object_component_ref idref="oc-1e"/>
+            <object_component_ref idref="oc-47"/>
+            <object_component_ref idref="oc-91"/>
+            <object_component_ref idref="oc-8f"/>
+            <object_component_ref idref="oc-17"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-37"/>
             <object_component_ref idref="oc-c6"/>
             <object_component_ref idref="oc-8a"/>
             <object_component_ref idref="oc-25"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Port_RefreshPortDirection
             <object_component_ref idref="oc-60"/>
+=======
+            <object_component_ref idref="oc-62"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-42"/>
 =======
             <object_component_ref idref="oc-62"/>
@@ -3510,10 +4128,14 @@
             <object_component_ref idref="oc-182"/>
             <object_component_ref idref="oc-187"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <object_component_ref idref="oc-a6"/>
 =======
             <object_component_ref idref="oc-a9"/>
 >>>>>>> Port_GetVersionInfo
+=======
+            <object_component_ref idref="oc-a9"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-e1"/>
             <object_component_ref idref="oc-20d"/>
          </contents>
@@ -3524,6 +4146,7 @@
          <run_address>0x0</run_address>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <size>0x14f0</size>
 =======
          <size>0x14de</size>
@@ -3531,6 +4154,9 @@
 =======
          <size>0x1550</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0x14ec</size>
+>>>>>>> Port_SetPinMode
          <contents>
             <object_component_ref idref="oc-1de"/>
             <object_component_ref idref="oc-11f"/>
@@ -3540,6 +4166,7 @@
             <object_component_ref idref="oc-3f"/>
             <object_component_ref idref="oc-7b"/>
             <object_component_ref idref="oc-1d8"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <object_component_ref idref="oc-15c"/>
@@ -3571,6 +4198,18 @@
 >>>>>>> Port_RefreshPortDirection
             <object_component_ref idref="oc-b0"/>
 >>>>>>> Port_GetVersionInfo
+=======
+            <object_component_ref idref="oc-158"/>
+            <object_component_ref idref="oc-193"/>
+            <object_component_ref idref="oc-c0"/>
+            <object_component_ref idref="oc-be"/>
+            <object_component_ref idref="oc-31"/>
+            <object_component_ref idref="oc-15e"/>
+            <object_component_ref idref="oc-149"/>
+            <object_component_ref idref="oc-16c"/>
+            <object_component_ref idref="oc-d7"/>
+            <object_component_ref idref="oc-ae"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-7f"/>
             <object_component_ref idref="oc-34"/>
             <object_component_ref idref="oc-2b"/>
@@ -3580,15 +4219,20 @@
             <object_component_ref idref="oc-1d6"/>
             <object_component_ref idref="oc-1d4"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <object_component_ref idref="oc-152"/>
 =======
             <object_component_ref idref="oc-153"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-154"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-1dc"/>
             <object_component_ref idref="oc-1b5"/>
             <object_component_ref idref="oc-1d1"/>
             <object_component_ref idref="oc-1cd"/>
             <object_component_ref idref="oc-1cf"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <object_component_ref idref="oc-150"/>
@@ -3598,6 +4242,9 @@
 =======
             <object_component_ref idref="oc-150"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-14c"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-1da"/>
             <object_component_ref idref="oc-1b2"/>
             <object_component_ref idref="oc-97"/>
@@ -3605,19 +4252,28 @@
             <object_component_ref idref="oc-4a"/>
             <object_component_ref idref="oc-94"/>
             <object_component_ref idref="oc-cc"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-19"/>
+=======
+            <object_component_ref idref="oc-1a"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-3a"/>
             <object_component_ref idref="oc-c9"/>
             <object_component_ref idref="oc-8d"/>
             <object_component_ref idref="oc-72"/>
             <object_component_ref idref="oc-61"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-42"/>
+=======
+            <object_component_ref idref="oc-45"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-17c"/>
             <object_component_ref idref="oc-ed"/>
             <object_component_ref idref="oc-180"/>
             <object_component_ref idref="oc-1bd"/>
             <object_component_ref idref="oc-185"/>
             <object_component_ref idref="oc-18a"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <object_component_ref idref="oc-a9"/>
@@ -3630,20 +4286,34 @@
             <object_component_ref idref="oc-aa"/>
             <object_component_ref idref="oc-e1"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-a7"/>
+            <object_component_ref idref="oc-df"/>
+>>>>>>> Port_SetPinMode
          </contents>
       </logical_group>
       <logical_group id="lg-1f4" display="never" color="cyan">
          <name>.debug_frame</name>
          <load_address>0x0</load_address>
          <run_address>0x0</run_address>
+<<<<<<< HEAD
          <size>0x7e8</size>
+=======
+         <size>0x7e4</size>
+>>>>>>> Port_SetPinMode
          <contents>
 <<<<<<< HEAD
 <<<<<<< HEAD
             <object_component_ref idref="oc-11f"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-15b"/>
             <object_component_ref idref="oc-192"/>
             <object_component_ref idref="oc-2f"/>
+=======
+            <object_component_ref idref="oc-15c"/>
+            <object_component_ref idref="oc-194"/>
+            <object_component_ref idref="oc-32"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-162"/>
 =======
             <object_component_ref idref="oc-120"/>
@@ -3654,6 +4324,7 @@
 >>>>>>> Port_RefreshPortDirection
             <object_component_ref idref="oc-14a"/>
             <object_component_ref idref="oc-db"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-ac"/>
             <object_component_ref idref="oc-28"/>
 <<<<<<< HEAD
@@ -3694,6 +4365,18 @@
             <object_component_ref idref="oc-a6"/>
             <object_component_ref idref="oc-e2"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-ad"/>
+            <object_component_ref idref="oc-2b"/>
+            <object_component_ref idref="oc-153"/>
+            <object_component_ref idref="oc-14e"/>
+            <object_component_ref idref="oc-1d"/>
+            <object_component_ref idref="oc-19"/>
+            <object_component_ref idref="oc-60"/>
+            <object_component_ref idref="oc-ee"/>
+            <object_component_ref idref="oc-a6"/>
+            <object_component_ref idref="oc-de"/>
+>>>>>>> Port_SetPinMode
          </contents>
       </logical_group>
       <logical_group id="lg-1f6" display="never" color="cyan">
@@ -3794,6 +4477,7 @@
 <<<<<<< HEAD
             <object_component_ref idref="oc-11d"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <object_component_ref idref="oc-15a"/>
             <object_component_ref idref="oc-190"/>
             <object_component_ref idref="oc-30"/>
@@ -3809,6 +4493,23 @@
             <object_component_ref idref="oc-61"/>
             <object_component_ref idref="oc-43"/>
             <object_component_ref idref="oc-ed"/>
+=======
+            <object_component_ref idref="oc-159"/>
+            <object_component_ref idref="oc-191"/>
+            <object_component_ref idref="oc-2f"/>
+            <object_component_ref idref="oc-15f"/>
+            <object_component_ref idref="oc-148"/>
+            <object_component_ref idref="oc-d8"/>
+            <object_component_ref idref="oc-ac"/>
+            <object_component_ref idref="oc-29"/>
+            <object_component_ref idref="oc-152"/>
+            <object_component_ref idref="oc-14d"/>
+            <object_component_ref idref="oc-20"/>
+            <object_component_ref idref="oc-16"/>
+            <object_component_ref idref="oc-63"/>
+            <object_component_ref idref="oc-43"/>
+            <object_component_ref idref="oc-eb"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-a8"/>
             <object_component_ref idref="oc-e0"/>
 =======
@@ -3859,6 +4560,7 @@
             <object_component_ref idref="oc-1ae"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <object_component_ref idref="oc-159"/>
             <object_component_ref idref="oc-194"/>
             <object_component_ref idref="oc-76"/>
@@ -3890,6 +4592,17 @@
             <object_component_ref idref="oc-d9"/>
             <object_component_ref idref="oc-af"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-15b"/>
+            <object_component_ref idref="oc-192"/>
+            <object_component_ref idref="oc-76"/>
+            <object_component_ref idref="oc-30"/>
+            <object_component_ref idref="oc-161"/>
+            <object_component_ref idref="oc-147"/>
+            <object_component_ref idref="oc-123"/>
+            <object_component_ref idref="oc-da"/>
+            <object_component_ref idref="oc-b0"/>
+>>>>>>> Port_SetPinMode
             <object_component_ref idref="oc-14"/>
             <object_component_ref idref="oc-2b"/>
             <object_component_ref idref="oc-1a4"/>
@@ -3901,6 +4614,7 @@
 <<<<<<< HEAD
             <object_component_ref idref="oc-14e"/>
             <object_component_ref idref="oc-165"/>
+<<<<<<< HEAD
             <object_component_ref idref="oc-1d"/>
             <object_component_ref idref="oc-17"/>
             <object_component_ref idref="oc-26"/>
@@ -3932,6 +4646,16 @@
             <object_component_ref idref="oc-a8"/>
             <object_component_ref idref="oc-e0"/>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <object_component_ref idref="oc-1f"/>
+            <object_component_ref idref="oc-18"/>
+            <object_component_ref idref="oc-26"/>
+            <object_component_ref idref="oc-64"/>
+            <object_component_ref idref="oc-44"/>
+            <object_component_ref idref="oc-ec"/>
+            <object_component_ref idref="oc-aa"/>
+            <object_component_ref idref="oc-e2"/>
+>>>>>>> Port_SetPinMode
          </contents>
       </logical_group>
       <logical_group id="lg-1fe" display="never" color="cyan">
@@ -3972,6 +4696,7 @@
          <run_address>0x0</run_address>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <size>0x10d4</size>
 =======
          <size>0xfac</size>
@@ -3979,6 +4704,9 @@
 =======
          <size>0x1064</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <size>0x1134</size>
+>>>>>>> Port_SetPinMode
          <flags>0x5</flags>
          <contents>
             <logical_group_ref idref="lg-3"/>
@@ -4006,6 +4734,7 @@
          <length>0x40000</length>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <used_space>0x10ce</used_space>
          <unused_space>0x3ef32</unused_space>
 =======
@@ -4016,6 +4745,10 @@
          <used_space>0x1062</used_space>
          <unused_space>0x3ef9e</unused_space>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <used_space>0x1132</used_space>
+         <unused_space>0x3eece</unused_space>
+>>>>>>> Port_SetPinMode
          <attributes>RX</attributes>
          <usage_details>
             <allocated_space>
@@ -4025,6 +4758,7 @@
             </allocated_space>
             <allocated_space>
                <start_address>0x26c</start_address>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                <size>0xcd2</size>
@@ -4046,10 +4780,18 @@
             <allocated_space>
                <start_address>0xed2</start_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+               <size>0xd36</size>
+               <logical_group_ref idref="lg-4"/>
+            </allocated_space>
+            <allocated_space>
+               <start_address>0xfa2</start_address>
+>>>>>>> Port_SetPinMode
                <size>0x15c</size>
                <logical_group_ref idref="lg-5"/>
             </allocated_space>
             <available_space>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                <start_address>0x109a</start_address>
@@ -4071,10 +4813,18 @@
             <allocated_space>
                <start_address>0x1030</start_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+               <start_address>0x10fe</start_address>
+               <size>0x2</size>
+            </available_space>
+            <allocated_space>
+               <start_address>0x1100</start_address>
+>>>>>>> Port_SetPinMode
                <size>0x34</size>
                <logical_group_ref idref="lg-6"/>
             </allocated_space>
             <available_space>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                <start_address>0x10d4</start_address>
@@ -4087,6 +4837,10 @@
                <start_address>0x1064</start_address>
                <size>0x3ef9c</size>
 >>>>>>> Port_RefreshPortDirection
+=======
+               <start_address>0x1134</start_address>
+               <size>0x3eecc</size>
+>>>>>>> Port_SetPinMode
             </available_space>
          </usage_details>
       </memory_area>
@@ -4128,6 +4882,7 @@
             <name>.data</name>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <load_address>0x10a0</load_address>
 =======
             <load_address>0xf78</load_address>
@@ -4135,6 +4890,9 @@
 =======
             <load_address>0x1030</load_address>
 >>>>>>> Port_RefreshPortDirection
+=======
+            <load_address>0x1100</load_address>
+>>>>>>> Port_SetPinMode
             <load_size>0x23</load_size>
             <run_address>0x20000200</run_address>
             <run_size>0x30</run_size>
@@ -4168,6 +4926,7 @@
       </symbol>
       <symbol id="sm-4">
          <name>__TI_CINIT_Base</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0x10cc</value>
@@ -4213,6 +4972,21 @@
          <name>__TI_Handler_Table_Limit</name>
          <value>0x105c</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0x112c</value>
+      </symbol>
+      <symbol id="sm-5">
+         <name>__TI_CINIT_Limit</name>
+         <value>0x1134</value>
+      </symbol>
+      <symbol id="sm-6">
+         <name>__TI_Handler_Table_Base</name>
+         <value>0x1124</value>
+      </symbol>
+      <symbol id="sm-7">
+         <name>__TI_Handler_Table_Limit</name>
+         <value>0x112c</value>
+>>>>>>> Port_SetPinMode
       </symbol>
       <symbol id="sm-8">
          <name>binit</name>
@@ -4250,6 +5024,7 @@
          <name>Button_Task</name>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <value>0xddd</value>
 =======
          <value>0xcb5</value>
@@ -4257,10 +5032,14 @@
 =======
          <value>0xd71</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xe41</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-11b"/>
       </symbol>
       <symbol id="sm-5b">
          <name>Led_Task</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xde5</value>
@@ -4270,10 +5049,14 @@
 =======
          <value>0xd79</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xe49</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-11b"/>
       </symbol>
       <symbol id="sm-5c">
          <name>App_Task</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xded</value>
@@ -4283,10 +5066,14 @@
 =======
          <value>0xd81</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xe51</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-11b"/>
       </symbol>
       <symbol id="sm-5d">
          <name>Init_Task</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xdc9</value>
@@ -4296,10 +5083,14 @@
 =======
          <value>0xd5d</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xe2d</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-11b"/>
       </symbol>
       <symbol id="sm-7b">
          <name>Button_RefreshState</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xc6f</value>
@@ -4309,10 +5100,14 @@
 =======
          <value>0xc03</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xcd3</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-157"/>
       </symbol>
       <symbol id="sm-7c">
          <name>Button_GetState</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xc69</value>
@@ -4322,10 +5117,14 @@
 =======
          <value>0xbfd</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xccd</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-157"/>
       </symbol>
       <symbol id="sm-87">
          <name>Det_ReportError</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xefd</value>
@@ -4335,10 +5134,14 @@
 =======
          <value>0xe91</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xf61</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-18f"/>
       </symbol>
       <symbol id="sm-a5">
          <name>SysTick_Handler</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xce5</value>
@@ -4348,10 +5151,14 @@
 =======
          <value>0xc79</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xd49</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-2d"/>
       </symbol>
       <symbol id="sm-a6">
          <name>SysTick_Stop</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xd35</value>
@@ -4361,10 +5168,14 @@
 =======
          <value>0xcc9</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xd99</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-2d"/>
       </symbol>
       <symbol id="sm-a7">
          <name>SysTick_Start</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xcf5</value>
@@ -4374,10 +5185,14 @@
 =======
          <value>0xc89</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xd59</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-2d"/>
       </symbol>
       <symbol id="sm-a8">
          <name>SysTick_SetCallBack</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xd3d</value>
@@ -4387,10 +5202,14 @@
 =======
          <value>0xcd1</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xda1</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-2d"/>
       </symbol>
       <symbol id="sm-b5">
          <name>Led_SetOn</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xe69</value>
@@ -4400,10 +5219,14 @@
 =======
          <value>0xdfd</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xecd</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-15d"/>
       </symbol>
       <symbol id="sm-b6">
          <name>Led_RefreshOutput</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xe81</value>
@@ -4413,10 +5236,14 @@
 =======
          <value>0xe15</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xee5</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-15d"/>
       </symbol>
       <symbol id="sm-b7">
          <name>Led_Toggle</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xe99</value>
@@ -4426,10 +5253,14 @@
 =======
          <value>0xe2d</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xefd</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-15d"/>
       </symbol>
       <symbol id="sm-b8">
          <name>Led_SetOff</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xe75</value>
@@ -4439,10 +5270,14 @@
 =======
          <value>0xe09</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xed9</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-15d"/>
       </symbol>
       <symbol id="sm-c6">
          <name>Mcu_Init</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xedd</value>
@@ -4452,10 +5287,14 @@
 =======
          <value>0xe71</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xf41</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-145"/>
       </symbol>
       <symbol id="sm-e5">
          <name>Os_Scheduler</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xb4f</value>
@@ -4465,10 +5304,14 @@
 =======
          <value>0xae3</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xbb3</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-d6"/>
       </symbol>
       <symbol id="sm-e6">
          <name>Os_start</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xb25</value>
@@ -4478,10 +5321,14 @@
 =======
          <value>0xab9</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xb89</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-d6"/>
       </symbol>
       <symbol id="sm-e7">
          <name>Os_NewTimerTick</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xb3f</value>
@@ -4491,10 +5338,14 @@
 =======
          <value>0xad3</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xba3</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-d6"/>
       </symbol>
       <symbol id="sm-f1">
          <name>main</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xf2d</value>
@@ -4504,10 +5355,14 @@
 =======
          <value>0xec1</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xf91</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-ab"/>
       </symbol>
       <symbol id="sm-11c">
          <name>ResetISR</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0xf21</value>
@@ -4517,6 +5372,9 @@
 =======
          <value>0xeb5</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xf85</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-27"/>
       </symbol>
       <symbol id="sm-11d">
@@ -4528,6 +5386,7 @@
          <name>Dio_WriteChannel</name>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          <value>0x83d</value>
 =======
          <value>0x715</value>
@@ -4535,10 +5394,14 @@
 =======
          <value>0x7d1</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0x8a1</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-151"/>
       </symbol>
       <symbol id="sm-166">
          <name>Dio_FlipChannel</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0x9f7</value>
@@ -4548,10 +5411,14 @@
 =======
          <value>0x98b</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0xa5b</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-151"/>
       </symbol>
       <symbol id="sm-167">
          <name>Dio_Init</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0x819</value>
@@ -4561,10 +5428,14 @@
 =======
          <value>0x7ad</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0x87d</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-151"/>
       </symbol>
       <symbol id="sm-168">
          <name>Dio_ReadChannel</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0x91d</value>
@@ -4574,10 +5445,14 @@
 =======
          <value>0x8b1</value>
 >>>>>>> Port_RefreshPortDirection
+=======
+         <value>0x981</value>
+>>>>>>> Port_SetPinMode
          <object_component_ref idref="oc-151"/>
       </symbol>
       <symbol id="sm-173">
          <name>Dio_Configuration</name>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          <value>0x1096</value>
@@ -4590,10 +5465,17 @@
       </symbol>
       <symbol id="sm-1b6">
 >>>>>>> Port_GetVersionInfo
+=======
+         <value>0x10fa</value>
+         <object_component_ref idref="oc-166"/>
+      </symbol>
+      <symbol id="sm-1b8">
+>>>>>>> Port_SetPinMode
          <name>Port_GetVersionInfo</name>
          <value>0x7f7</value>
          <object_component_ref idref="oc-14b"/>
       </symbol>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <symbol id="sm-1bb">
 =======
@@ -4610,10 +5492,14 @@
       </symbol>
       <symbol id="sm-1bf">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <symbol id="sm-1b9">
+>>>>>>> Port_SetPinMode
          <name>Port_Init</name>
          <value>0x26d</value>
          <object_component_ref idref="oc-14b"/>
       </symbol>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <symbol id="sm-1bc">
@@ -4623,17 +5509,25 @@
 =======
       <symbol id="sm-1c0">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <symbol id="sm-1ba">
+>>>>>>> Port_SetPinMode
          <name>Port_SetPinDirection</name>
          <value>0x691</value>
          <object_component_ref idref="oc-14b"/>
       </symbol>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <symbol id="sm-1bd">
+=======
+      <symbol id="sm-1bb">
+>>>>>>> Port_SetPinMode
          <name>Port_SetPinMode</name>
          <value>0x801</value>
          <object_component_ref idref="oc-14b"/>
       </symbol>
+<<<<<<< HEAD
       <symbol id="sm-1be">
 =======
       <symbol id="sm-1b9">
@@ -4651,10 +5545,14 @@
       </symbol>
       <symbol id="sm-1c2">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <symbol id="sm-1bc">
+>>>>>>> Port_SetPinMode
          <name>Port_RefreshPortDirection</name>
          <value>0x7f5</value>
          <object_component_ref idref="oc-14b"/>
       </symbol>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <symbol id="sm-1c9">
@@ -4709,10 +5607,29 @@
       </symbol>
       <symbol id="sm-21b">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <symbol id="sm-1c7">
+         <name>Port_PinConfig</name>
+         <value>0xfa2</value>
+         <object_component_ref idref="oc-163"/>
+      </symbol>
+      <symbol id="sm-1df">
+         <name>__TI_decompress_none</name>
+         <value>0xf77</value>
+         <object_component_ref idref="oc-1b"/>
+      </symbol>
+      <symbol id="sm-202">
+         <name>__TI_decompress_lzss</name>
+         <value>0xdc5</value>
+         <object_component_ref idref="oc-15"/>
+      </symbol>
+      <symbol id="sm-215">
+>>>>>>> Port_SetPinMode
          <name>__stack</name>
          <value>0x20000000</value>
          <object_component_ref idref="oc-24"/>
       </symbol>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <symbol id="sm-218">
@@ -4881,6 +5798,62 @@
       </symbol>
       <symbol id="sm-281">
 >>>>>>> Port_RefreshPortDirection
+=======
+      <symbol id="sm-216">
+         <name>_c_int00_noargs</name>
+         <value>0xf0d</value>
+         <object_component_ref idref="oc-5f"/>
+      </symbol>
+      <symbol id="sm-231">
+         <name>memcpy</name>
+         <value>0xc31</value>
+         <object_component_ref idref="oc-41"/>
+      </symbol>
+      <symbol id="sm-232">
+         <name>__aeabi_memcpy</name>
+         <value>0xc31</value>
+         <object_component_ref idref="oc-41"/>
+      </symbol>
+      <symbol id="sm-233">
+         <name>__aeabi_memcpy8</name>
+         <value>0xc31</value>
+         <object_component_ref idref="oc-41"/>
+      </symbol>
+      <symbol id="sm-234">
+         <name>__aeabi_memcpy4</name>
+         <value>0xc31</value>
+         <object_component_ref idref="oc-41"/>
+      </symbol>
+      <symbol id="sm-25d">
+         <name>__TI_auto_init_nobinit_nopinit</name>
+         <value>0xe89</value>
+         <object_component_ref idref="oc-e9"/>
+      </symbol>
+      <symbol id="sm-267">
+         <name>_system_pre_init</name>
+         <value>0xf9b</value>
+         <object_component_ref idref="oc-a5"/>
+      </symbol>
+      <symbol id="sm-273">
+         <name>C$$EXIT</name>
+         <value>0xf9f</value>
+         <object_component_ref idref="oc-dd"/>
+      </symbol>
+      <symbol id="sm-274">
+         <name>abort</name>
+         <value>0xf9f</value>
+         <object_component_ref idref="oc-dd"/>
+      </symbol>
+      <symbol id="sm-277">
+         <name>__TI_static_base__</name>
+         <value>0x0</value>
+      </symbol>
+      <symbol id="sm-27a">
+         <name>__mpu_init</name>
+         <value>0x0</value>
+      </symbol>
+      <symbol id="sm-27b">
+>>>>>>> Port_SetPinMode
          <name>_system_post_cinit</name>
          <value>0x0</value>
       </symbol>
