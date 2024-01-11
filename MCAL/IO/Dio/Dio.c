@@ -9,8 +9,8 @@
  * Author: Mohamed Tarek
  ******************************************************************************/
 
-#include "Dio.h"
-#include "Dio_Regs.h"
+#include <MCAL/IO/Dio/Dio.h>
+#include <MCAL/IO/Dio/Dio_Regs.h>
 
 #if (DIO_DEV_ERROR_DETECT == STD_ON)
 

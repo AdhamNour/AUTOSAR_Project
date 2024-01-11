@@ -1,31 +1,28 @@
 # FIXED
 
 Button.obj: ../Button.c
-Button.obj: ../Dio.h
-Button.obj: ../Std_Types.h
-Button.obj: ../Platform_Types.h
-Button.obj: ../Compiler.h
-Button.obj: ../Dio_Cfg.h
-Button.obj: ../Common_Macros.h
-Button.obj: ../Port.h
+Button.obj: D:/AUTOSAR_Project/MCAL/IO/Dio/Dio.h
+Button.obj: D:/AUTOSAR_Project/Std_Types.h
+Button.obj: D:/AUTOSAR_Project/Platform_Types.h
+Button.obj: D:/AUTOSAR_Project/Compiler.h
+Button.obj: D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h
+Button.obj: D:/AUTOSAR_Project/Common_Macros.h
 Button.obj: ../Button.h
 Button.obj: ../Button_Cfg.h
 
 ../Button.c:
 
-../Dio.h:
+D:/AUTOSAR_Project/MCAL/IO/Dio/Dio.h:
 
-../Std_Types.h:
+D:/AUTOSAR_Project/Std_Types.h:
 
-../Platform_Types.h:
+D:/AUTOSAR_Project/Platform_Types.h:
 
-../Compiler.h:
+D:/AUTOSAR_Project/Compiler.h:
 
-../Dio_Cfg.h:
+D:/AUTOSAR_Project/MCAL/IO/Dio/Dio_Cfg.h:
 
-../Common_Macros.h:
-
-../Port.h:
+D:/AUTOSAR_Project/Common_Macros.h:
 
 ../Button.h:
 

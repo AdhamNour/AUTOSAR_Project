@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS
+CG_TOOL_ROOT := C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -13,15 +13,16 @@ ORDERED_OBJS += \
 "./App.obj" \
 "./Button.obj" \
 "./Det.obj" \
-"./Dio.obj" \
-"./Dio_PBcfg.obj" \
 "./Gpt.obj" \
 "./Led.obj" \
 "./Mcu.obj" \
 "./Os.obj" \
-"./Port.obj" \
 "./main.obj" \
 "./tm4c123gh6pm_startup_ccs.obj" \
+"./MCAL/IO/Dio/Dio.obj" \
+"./MCAL/IO/Dio/Dio_PBcfg.obj" \
+"./MCAL/IO/Port/Port.obj" \
+"./MCAL/IO/Port/Port_PBcfg.obj" \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
@@ -34,7 +35,11 @@ RMDIR := RMDIR /S/Q
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir_vars.mk
+-include MCAL/IO/Dio/subdir_vars.mk
+-include MCAL/IO/Port/subdir_vars.mk
 -include subdir_rules.mk
+-include MCAL/IO/Dio/subdir_rules.mk
+-include MCAL/IO/Port/subdir_rules.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -145,15 +150,15 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 AUTOSAR_Project.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"AUTOSAR_Project.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1240/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="AUTOSAR_Project_linkInfo.xml" --rom_model -o "AUTOSAR_Project.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"AUTOSAR_Project.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="AUTOSAR_Project_linkInfo.xml" --rom_model -o "AUTOSAR_Project.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "App.obj" "Button.obj" "Det.obj" "Dio.obj" "Dio_PBcfg.obj" "Gpt.obj" "Led.obj" "Mcu.obj" "Os.obj" "Port.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
-	-$(RM) "App.d" "Button.d" "Det.d" "Dio.d" "Dio_PBcfg.d" "Gpt.d" "Led.d" "Mcu.d" "Os.d" "Port.d" "main.d" "tm4c123gh6pm_startup_ccs.d" 
+	-$(RM) "App.obj" "Button.obj" "Det.obj" "Gpt.obj" "Led.obj" "Mcu.obj" "Os.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "MCAL\IO\Dio\Dio.obj" "MCAL\IO\Dio\Dio_PBcfg.obj" "MCAL\IO\Port\Port.obj" "MCAL\IO\Port\Port_PBcfg.obj" 
+	-$(RM) "App.d" "Button.d" "Det.d" "Gpt.d" "Led.d" "Mcu.d" "Os.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "MCAL\IO\Dio\Dio.d" "MCAL\IO\Dio\Dio_PBcfg.d" "MCAL\IO\Port\Port.d" "MCAL\IO\Port\Port_PBcfg.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

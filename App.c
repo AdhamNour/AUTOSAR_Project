@@ -9,10 +9,11 @@
  * Author: Mohamed Tarek
  ******************************************************************************/
 
+#include <MCAL/IO/Dio/Dio.h>
+#include "MCAL/IO/Port/Port.h"
 #include "App.h"
 #include "Button.h"
 #include "Led.h"
-#include "Dio.h"
 #include "Mcu.h"
 
 /* Description: Task executes once to initialize all the Modules */
@@ -20,15 +21,10 @@ void Init_Task(void)
 {
     /* Initialize Mcu Driver */
     Mcu_Init();
-
+    /* Initialize Port Driver */
+    Port_Init(&Port_PinConfig);
     /* Initialize Dio Driver */
     Dio_Init(&Dio_Configuration);
-
-    /* Initialize LED Driver */
-    Led_Init();
-
-    /* Initialize Button Driver */
-    Button_Init();
 }
 
 /* Description: Task executes every 20 Mili-seconds to check the button state */

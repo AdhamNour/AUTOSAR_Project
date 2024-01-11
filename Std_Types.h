@@ -63,5 +63,6 @@ typedef struct
 
 #define E_OK            ((Std_ReturnType)0x00U)      /* Function Return OK */
 #define E_NOT_OK        ((Std_ReturnType)0x01U)      /* Function Return NOT OK */
+#define ZERO            0x00U
 
 #endif /* STD_TYPES_H */
