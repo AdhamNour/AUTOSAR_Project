@@ -1,7 +1,7 @@
 #ifndef TM4C123GH6PM_REGISTERS
 #define TM4C123GH6PM_REGISTERS
 
-#include "std_types.h"
+#include "Std_Types.h"
 
 /*****************************************************************************
 GPIO registers (PORTA)
