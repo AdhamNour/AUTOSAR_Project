@@ -6,7 +6,7 @@
  *
  * Description: Pre-Compile Configuration Header file for TM4C123GH6PM Microcontroller - Port Driver
  *
- * Author: Assem Khaled
+ * Author: Adham Nour
  ******************************************************************************/
 
 #ifndef MCAL_IO_PORT_PORT_REGS_H_
